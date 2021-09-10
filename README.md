@@ -60,7 +60,7 @@ Primarily designed for translating Japanese text, but also support Chinese and E
 Support inpainting and text rendering \
 Successor to https://github.com/PatchyVideo/MMDOCR-HighPerformance
 
-# How to use
+# CLI - How to use
 1. Python>=3.8, [Poetry](https://python-poetry.org/)
 2. Clone this repo
 3. [Download](https://github.com/zyddnys/manga-image-translator/releases/tag/beta-0.2.0) `ocr.ckpt`、`detect.ckpt` and `inpainting.ckpt`, put them in the root directory of this repo
@@ -68,7 +68,7 @@ Successor to https://github.com/PatchyVideo/MMDOCR-HighPerformance
 5. Run `poetry install` for install dependencies
 6. Run `python translate_demo.py --image <path_to_image_file> [--use-inpainting] [--verbose] [--use-cuda] [--translator=google] [--target-lang=CHS]`, result can be found in `result/`. Add `--use-inpainting` to enable inpainting, Add `--use-cuda` to use CUDA.
 
-# How to use
+# WebServer -  How to use
 1. Python>=3.8, [Poetry](https://python-poetry.org/)
 2. Clone this repo
 3. [Download](https://github.com/zyddnys/manga-image-translator/releases/tag/beta-0.2.0) `ocr.ckpt`、`detect.ckpt` and `inpainting.ckpt`, put them in the root directory of this repo
